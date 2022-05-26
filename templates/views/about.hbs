@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    {{>header}}
+</head>
+<body>
+    {{!--                                   you can import the code from of same header or footer just like this --}}
+    {{!-- {{>footer}} --}}
+    <p>This is a paragraph for {{name}} and  age {{age}} </p>   
+    {{!-- here '{{name}}' and '{{age}}' is the placeholder for the display of the query string which is in app,js  --}}
+</body>
+</html>
